@@ -1,7 +1,8 @@
-import PYInputNumber from './src/InputNumber.vue';
+import PyInputNumber from './src/InputNumber.vue';
 
-PYInputNumber.install = function inputNumber(Vue) {
-  Vue.component(PYInputNumber.name, PYInputNumber);
+PyInputNumber.install = function inputNumber(Vue) {
+  Vue.component(PyInputNumber.name, PyInputNumber);
 };
 
-export default PYInputNumber;
+export default PyInputNumber;
+
